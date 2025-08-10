@@ -1,0 +1,135 @@
+.Hero_cont {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.818)),
+    url("/Images/preview.colorlib.com-1754745056663/04_banner.png");
+  height: 150vh;
+  width: 100%;
+  /* opacity: 0.3; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Hero_child {
+  /* border: 2px solid green; */
+  width: 100%;
+  max-width: 80%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.Hero_text {
+  /* border: 2px solid red; */
+  width: 100%;
+  max-width: 80%;
+  font-weight: bold;
+  font-size: 4rem;
+
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .Hero_text {
+    font-size: 4rem;
+    width: 100%;
+    max-width: 90%;
+    border: 2px solid gray;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .Hero_text {
+    font-size: 3rem;
+    width: 100%;
+    max-width: 90%;
+    border: 2px solid gray;
+  }
+
+  .Hero_child {
+    border: 2px solid green;
+    width: 100%;
+    max-width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+  }
+
+  .Hero_cont {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .Hero_text {
+    font-size: 2rem;
+    width: 100%;
+    max-width: 90%;
+    border: 2px solid gray;
+  }
+
+  .Hero_child {
+    border: 2px solid green;
+    width: 100%;
+    max-width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .Hero_text {
+    font-size: 1.5rem;
+    width: 100%;
+    max-width: 90%;
+    border: 2px solid gray;
+  }
+
+  .Hero_child {
+    border: 2px solid green;
+    width: 100%;
+    max-width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .Hero_text {
+    font-size: 1rem;
+    width: 100%;
+    max-width: 90%;
+    border: 2px solid gray;
+  }
+
+  .Hero_child {
+    border: 2px solid green;
+    width: 100%;
+    max-width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+  }
+
+  .Hero_btn {
+    font-size: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    width: 40%;
+    /* background-color: red; */
+  }
+}

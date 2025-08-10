@@ -1,0 +1,88 @@
+.Aboutus_cont {
+  /* border: 2px solid red; */
+  margin-top: 5rem;
+  height: 100vh;
+}
+
+.Aboutus_child {
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.About_first {
+  /* border: 10px solid orange; */
+  height: 100%;
+  width: 50%;
+  background-image: url("/Images/preview.colorlib.com-1754745056663/09_about.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.About_second {
+  /* border: 10px solid blue; */
+  height: 100%;
+  width: 50%;
+  background-color: #212529;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.About_second_child {
+  border: 2px solid green;
+  width: 80%;
+  height: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.p_s {
+  font-size: 1.2rem;
+}
+
+.h {
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 995px) {
+  .About_first {
+    display: none;
+  }
+
+  .About_second {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .p_s {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .h {
+    font-size: 1.5rem;
+  }
+
+  .About_second {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+  }
+  .About_second_child {
+    width: 90%;
+    height: 45%;
+  }
+
+  .p_s {
+    font-size: 0.8rem;
+  }
+}
