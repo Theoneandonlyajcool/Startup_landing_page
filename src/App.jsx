@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About_us from "./components/About_us";
 import Get_in_touch from "./components/Get_in_touch";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Hero />
       <About_us />
       <Get_in_touch />
+      <Footer />
     </div>
   );
 };

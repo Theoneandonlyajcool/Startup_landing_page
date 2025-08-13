@@ -10,7 +10,7 @@ const Get_in_touch = () => {
       <div className="touch_child">
         {/* Text */}
 
-        <div>
+        <div className="Get_in_touch_text">
           <h1>Get in Touch</h1>
           <p>
             Tour function information without cross action media value quickly
@@ -20,18 +20,24 @@ const Get_in_touch = () => {
 
         <form action="">
           {/* Name input and email input */}
-          <div>
-            <input type="text" />
-            <input type="text" />
+          <div className="name_email">
+            <input type="text" placeholder="Your name" />
+            <input type="mail" placeholder="Email" />
           </div>
 
           {/* Subject and message area */}
-          <div>
-            <input type="text" />
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+          <div className="subject_message">
+            <input type="text" placeholder="subject" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
           </div>
 
-          <Button></Button>
+          <button className="form_btn">Send Message</button>
         </form>
       </div>
     </div>

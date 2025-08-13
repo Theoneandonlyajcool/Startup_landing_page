@@ -33,7 +33,7 @@
 }
 
 .About_second_child {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   width: 80%;
   height: 48%;
   display: flex;
